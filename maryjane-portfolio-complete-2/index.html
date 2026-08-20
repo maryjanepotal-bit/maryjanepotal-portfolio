@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Maryjane Potal | Multidisciplinary Professional</title>
+  <meta name="description" content="Portfolio of Maryjane Potal — Executive Support, Operations, Graphic Design, Logistics, Digital Marketing and IT Support.">
+  <meta name="keywords" content="Maryjane Potal, Executive Assistant, Graphic Designer, Operations, Logistics, Digital Marketing, IT Support, Dubai">
+  <meta property="og:title" content="Maryjane Potal | Professional Portfolio">
+  <meta property="og:description" content="Creative vision. Executive precision.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/website-photo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#home" class="brand">
+        <span class="brand-mark">MP</span>
+        <span class="brand-name">Maryjane Potal</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-button" aria-label="Toggle dark mode">
+          <i id="theme-icon" class="fa-solid fa-moon"></i>
+        </button>
+
+        <a id="header-download-cv" href="cv/Maryjane_Potal_Master_CV.pdf" download class="button button-gold desktop-only">
+          <i class="fa-solid fa-download"></i>
+          Download CV
+        </a>
+
+        <button id="mobile-menu-button" class="icon-button mobile-menu-button" aria-label="Open mobile menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
+      <a href="#home" class="mobile-nav-link">Home</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#experience" class="mobile-nav-link">Experience</a>
+      <a href="#skills" class="mobile-nav-link">Skills</a>
+      <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+      <a href="#education" class="mobile-nav-link">Education</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero-section">
+      <img
+        src="assets/website-photo.png"
+        alt="Maryjane Potal professional portfolio"
+        class="hero-background"
+      >
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <div class="hero-actions">
+          <a href="#portfolio" class="button button-gold">View Portfolio</a>
+          <a href="#professional-profile" class="button button-light">View Professional Profile</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFILE SELECTOR -->
+    <section id="professional-profile" class="profile-selector-section">
+      <div class="section-container">
+        <div class="profile-selector-grid">
+          <div>
+            <span class="section-label">Choose a Professional Profile</span>
+            <h2 class="section-title">One portfolio. Multiple career strengths.</h2>
+            <p class="section-copy">
+              Select the professional profile that matches the opportunity. The portfolio remains available while the profile content and CV download change.
+            </p>
+          </div>
+
+          <div class="profile-control-card">
+            <label for="profile-selector">Professional profile</label>
+
+            <select id="profile-selector">
+              <option value="master">Master Multidisciplinary Profile</option>
+              <option value="executive">Executive Assistant & C-Suite Support</option>
+              <option value="creative">Graphic Design & Digital Marketing</option>
+              <option value="operations">Admin, Operations & Procurement</option>
+              <option value="logistics">Logistics & Shipping Coordination</option>
+              <option value="it">IT Support & Digital Solutions</option>
+            </select>
+
+            <div class="profile-link-row">
+              <input id="profile-link" type="text" readonly aria-label="Shareable profile link">
+              <button id="copy-profile-link" class="button button-dark">
+                <i class="fa-regular fa-copy"></i>
+                Copy Link
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <article class="profile-card">
+          <div class="profile-card-heading">
+            <span id="profile-eyebrow">Multidisciplinary Professional</span>
+            <h3 id="profile-title">Creative Vision. Executive Precision.</h3>
+          </div>
+
+          <p id="profile-summary">
+            A Dubai-based multidisciplinary professional combining executive support, administration, operations, graphic design, digital marketing, logistics and IT support.
+          </p>
+
+          <div id="profile-keywords" class="tag-list"></div>
+
+          <div class="profile-card-actions">
+            <a id="profile-download-cv" href="cv/Maryjane_Potal_Master_CV.pdf" download class="button button-gold">
+              <i class="fa-solid fa-download"></i>
+              Download Selected CV
+            </a>
+            <a href="#contact" class="button button-outline">Contact Me</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section">
+      <div class="section-container about-grid">
+        <div>
+          <span class="section-label">About Me</span>
+          <h2 class="section-title">Helping businesses grow through design, strategy and executive support.</h2>
+
+          <p class="section-copy">
+            I am Maryjane Potal, a Dubai-based multidisciplinary professional with UAE experience across executive support, administration, operations, graphic design, digital marketing, logistics and IT support.
+          </p>
+
+          <p class="section-copy">
+            I combine creative thinking with operational discipline to improve workflows, strengthen branding, coordinate projects and deliver professional client experiences.
+          </p>
+
+          <p class="section-copy">
+            Whether I am supporting executives, coordinating operations, creating visual materials or solving technical problems, my focus remains practical solutions, accurate execution and measurable results.
+          </p>
+
+          <a href="#contact" class="button button-dark">Let’s Work Together</a>
+        </div>
+
+        <div class="about-stats">
+          <article class="stat-card">
+            <strong>7+</strong>
+            <span>Years UAE Experience</span>
+          </article>
+
+          <article class="stat-card">
+            <strong>Creative + Admin</strong>
+            <span>Hybrid Professional</span>
+          </article>
+
+          <article class="stat-card">
+            <strong>Dubai, UAE</strong>
+            <span>Based Professional</span>
+          </article>
+
+          <article class="stat-card">
+            <strong>Immediate</strong>
+            <span>Available for Opportunities</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="experience-section">
+      <div class="section-container">
+        <div class="section-heading">
+          <span class="section-label">Professional Experience</span>
+          <h2 class="section-title">Creative execution backed by strong operations experience.</h2>
+        </div>
+
+        <div class="experience-list">
+
+          <article class="experience-item">
+            <div class="experience-date">May 2024 – May 2026</div>
+
+            <div class="experience-content">
+              <span class="experience-number">01</span>
+              <h3>Executive Assistant, Operations & Graphic Design</h3>
+              <h4>Mosaic Gift Wrapping Services — Dubai, UAE</h4>
+
+              <p>
+                Supported senior management while handling executive administration, HR coordination, operations, client communication, logistics, reporting, events and graphic design requirements.
+              </p>
+
+              <div class="tag-list">
+                <span>Executive Support</span>
+                <span>Operations</span>
+                <span>HR & Admin</span>
+                <span>Graphic Design</span>
+                <span>Events</span>
+                <span>Zoho CRM & Books</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-date">Previous UAE Role</div>
+
+            <div class="experience-content">
+              <span class="experience-number">02</span>
+              <h3>Graphic & Multimedia Designer</h3>
+              <h4>Rovatti General Trading LLC — Dubai, UAE</h4>
+
+              <p>
+                Produced social media graphics, branding materials, product photography, Arabic artwork, laser engraving designs, print files and customised production work.
+              </p>
+
+              <div class="tag-list">
+                <span>Adobe Creative Suite</span>
+                <span>Laser Engraving</span>
+                <span>Arabic Artwork</span>
+                <span>Print Production</span>
+                <span>Photography</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-date">Mar 2021 – Jan 2022</div>
+
+            <div class="experience-content">
+              <span class="experience-number">03</span>
+              <h3>Admin & Logistics Operations Coordinator</h3>
+              <h4>Ace Shipping & Logistics Services LLC — Dubai, UAE</h4>
+
+              <p>
+                Coordinated shipment documentation, drivers, routes, suppliers, customers, payment follow-ups, filing and daily logistics operations.
+              </p>
+
+              <div class="tag-list">
+                <span>Logistics</span>
+                <span>Documentation</span>
+                <span>Customer Service</span>
+                <span>Driver Coordination</span>
+                <span>Operations</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills-section">
+      <div class="section-container">
+        <div class="section-heading centered">
+          <span class="section-label">Core Expertise</span>
+          <h2 class="section-title">A balanced combination of creative, administrative and technical skills.</h2>
+        </div>
+
+        <div class="skills-grid">
+
+          <article class="skill-card">
+            <i class="fa-solid fa-user-tie"></i>
+            <h3>Executive & Administrative Support</h3>
+            <p>Calendar, inbox, minutes, reporting, document control, HR coordination, payroll support and PRO liaison.</p>
+          </article>
+
+          <article class="skill-card">
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h3>Graphic Design & Branding</h3>
+            <p>Social media graphics, flyers, presentations, packaging, brand assets, photo editing and marketing materials.</p>
+          </article>
+
+          <article class="skill-card">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Operations & Project Coordination</h3>
+            <p>Trackers, follow-ups, vendor coordination, client communication, procurement support and project administration.</p>
+          </article>
+
+          <article class="skill-card">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Logistics & Shipping</h3>
+            <p>Shipment documents, drivers, routes, deliveries, customer service, supplier coordination and payment follow-ups.</p>
+          </article>
+
+          <article class="skill-card">
+            <i class="fa-solid fa-print"></i>
+            <h3>Print & Production</h3>
+            <p>Laser engraving, vinyl cutting, heat press, customised products, Arabic artwork accuracy and pre-production files.</p>
+          </article>
+
+          <article class="skill-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>IT & Digital Solutions</h3>
+            <p>HTML, CSS, JavaScript fundamentals, Figma, GitHub, troubleshooting, website support and business systems.</p>
+          </article>
+
+        </div>
+
+        <div class="tools-panel">
+          <h3>Tools & Platforms</h3>
+          <div class="tag-list">
+            <span>Adobe Photoshop</span>
+            <span>Adobe Illustrator</span>
+            <span>Adobe InDesign</span>
+            <span>Premiere Pro</span>
+            <span>After Effects</span>
+            <span>Lightroom</span>
+            <span>Figma</span>
+            <span>Canva Pro</span>
+            <span>Zoho CRM</span>
+            <span>Zoho Books</span>
+            <span>Odoo</span>
+            <span>QuickBooks</span>
+            <span>Microsoft Office</span>
+            <span>Google Workspace</span>
+            <span>Notion</span>
+            <span>Monday.com</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="section-container">
+        <div class="section-heading">
+          <span class="section-label">Selected Work</span>
+          <h2 class="section-title">Projects, events, designs and operational evidence.</h2>
+        </div>
+
+        <div class="portfolio-filters">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="design">Graphic Design</button>
+          <button class="filter-button" data-filter="events">Events</button>
+          <button class="filter-button" data-filter="social">Social Media</button>
+          <button class="filter-button" data-filter="production">Print & Production</button>
+          <button class="filter-button" data-filter="admin">Admin & Operations</button>
+        </div>
+
+        <div class="portfolio-grid">
+
+          <!-- EDIT IMAGE NAME HERE -->
+          <article class="portfolio-card" data-category="events">
+            <img src="portfolio/carolina-herrera.jpg" alt="Carolina Herrera event project">
+            <div class="portfolio-card-content">
+              <span>Events & Activations</span>
+              <h3>Carolina Herrera Event</h3>
+              <p>Event coordination, gift wrapping setup, client support and visual presentation.</p>
+            </div>
+          </article>
+
+          <!-- EDIT IMAGE NAME HERE -->
+          <article class="portfolio-card" data-category="events">
+            <img src="portfolio/el-gouna.jpg" alt="El Gouna event project">
+            <div class="portfolio-card-content">
+              <span>Events & Activations</span>
+              <h3>El Gouna Project</h3>
+              <p>Creative execution, onsite support, project coordination and event documentation.</p>
+            </div>
+          </article>
+
+          <!-- EDIT IMAGE NAME HERE -->
+          <article class="portfolio-card" data-category="events">
+            <img src="portfolio/tryano.jpg" alt="TRYANO Art of Gifting project">
+            <div class="portfolio-card-content">
+              <span>Luxury Retail Activation</span>
+              <h3>TRYANO — The Art of Gifting</h3>
+              <p>Gift wrapping activation, logistics, client coordination and seasonal execution.</p>
+            </div>
+          </article>
+
+          <!-- EDIT IMAGE NAME HERE -->
+          <article class="portfolio-card" data-category="design">
+            <img src="portfolio/graphic-design.jpg" alt="Graphic design project">
+            <div class="portfolio-card-content">
+              <span>Graphic Design</span>
+              <h3>Marketing & Promotional Designs</h3>
+              <p>Social media graphics, posters, flyers, promotions, branding and campaign assets.</p>
+            </div>
+          </article>
+
+          <!-- EDIT IMAGE NAME HERE -->
+          <article class="portfolio-card" data-category="social">
+            <img src="portfolio/social-media.jpg" alt="Social media content project">
+            <div class="portfolio-card-content">
+              <span>Social Media</span>
+              <h3>Content & Campaign Support</h3>
+              <p>Content planning, captions, product photography, reels and promotional campaigns.</p>
+            </div>
+          </article>
+
+          <!-- EDIT IMAGE NAME HERE -->
+          <article class="portfolio-card" data-category="production">
+            <img src="portfolio/laser-engraving.jpg" alt="Laser engraving production project">
+            <div class="portfolio-card-content">
+              <span>Print & Production</span>
+              <h3>Laser Engraving & Customisation</h3>
+              <p>Artwork preparation, calibration, Arabic typography, material testing and production.</p>
+            </div>
+          </article>
+
+          <!-- EDIT IMAGE NAME HERE -->
+          <article class="portfolio-card" data-category="admin">
+            <img src="portfolio/admin-operations.jpg" alt="Administration and operations project">
+            <div class="portfolio-card-content">
+              <span>Admin & Operations</span>
+              <h3>Business Support & Coordination</h3>
+              <p>Executive support, trackers, reports, CRM records, HR files and logistics coordination.</p>
+            </div>
+          </article>
+
+          <!-- EDIT IMAGE NAME HERE -->
+          <article class="portfolio-card" data-category="design">
+            <img src="portfolio/branding-project.jpg" alt="Brand identity project">
+            <div class="portfolio-card-content">
+              <span>Brand Identity</span>
+              <h3>Branding & Visual Systems</h3>
+              <p>Logo concepts, visual identity, layouts, colour systems and presentation design.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="education-section">
+      <div class="section-container">
+        <div class="section-heading centered">
+          <span class="section-label">Education & Training</span>
+          <h2 class="section-title">Technical foundation strengthened by continuous learning.</h2>
+        </div>
+
+        <div class="education-grid">
+
+          <article class="education-card">
+            <span>2018</span>
+            <h3>Bachelor of Information Technology</h3>
+            <p>St. John Paul II College of Davao — Philippines</p>
+          </article>
+
+          <article class="education-card">
+            <span>Technical Training</span>
+            <h3>Computer System Servicing</h3>
+            <p>Hardware, software, troubleshooting, system support and technical fundamentals.</p>
+          </article>
+
+          <article class="education-card">
+            <span>Continuous Learning</span>
+            <h3>Web, Design & Digital Tools</h3>
+            <p>HTML, CSS, JavaScript, Figma, GitHub, Tailwind, web design and digital portfolio development.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+      <div class="section-container contact-grid">
+        <div>
+          <span class="section-label">Contact</span>
+          <h2 class="section-title">Let’s create, organise and grow something valuable.</h2>
+          <p class="section-copy">
+            Open to suitable opportunities in executive support, administration, operations, logistics, creative design, digital marketing and IT support.
+          </p>
+
+          <div class="contact-list">
+            <a href="mailto:YOUR-EMAIL@example.com">
+              <i class="fa-solid fa-envelope"></i>
+              YOUR-EMAIL@example.com
+            </a>
+
+            <a href="https://wa.me/YOURNUMBER" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i>
+              WhatsApp
+            </a>
+
+            <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/" target="_blank" rel="noopener">
+              <i class="fa-brands fa-linkedin-in"></i>
+              LinkedIn
+            </a>
+
+            <span>
+              <i class="fa-solid fa-location-dot"></i>
+              Dubai, United Arab Emirates
+            </span>
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <div class="form-row">
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+
+          <button type="submit" class="button button-gold">Send Message</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div>
+        <strong>Maryjane Potal</strong>
+        <span>Creative Vision. Executive Precision.</span>
+      </div>
+
+      <p>© <span id="current-year"></span> Maryjane Potal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Use the image filenames listed in README.txt
