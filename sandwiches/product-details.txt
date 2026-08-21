@@ -1,0 +1,36 @@
+BENDEREIGN — SANDWICHES
+
+Product names are based on the supplied Bendereign menu artwork.
+Descriptions are website-ready copy based on the visible product/name.
+PRICE NOTE: No approved individual prices were supplied, therefore AED — is intentionally retained.
+CUSTOMER CTA: Order Now → Keeta / noon Food
+
+Chicken Avocado
+Description: A fresh chicken sandwich paired with creamy avocado for a balanced, satisfying bite.
+Price: AED —
+CTA: Order Now
+
+Turkey & Cheese
+Description: Savory turkey layered with cheese in a simple, comforting café-style sandwich.
+Price: AED —
+CTA: Order Now
+
+Tuna
+Description: A light and savory tuna filling served in a freshly prepared sandwich.
+Price: AED —
+CTA: Order Now
+
+Halloumi
+Description: A satisfying sandwich built around flavorful halloumi with a fresh café-style finish.
+Price: AED —
+CTA: Order Now
+
+Egg Avocado
+Description: Egg and creamy avocado combined for a wholesome, smooth and filling sandwich.
+Price: AED —
+CTA: Order Now
+
+Chicken Pesto
+Description: Tender chicken paired with aromatic pesto for a fresh, savory sandwich.
+Price: AED —
+CTA: Order Now
