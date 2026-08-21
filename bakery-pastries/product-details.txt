@@ -1,0 +1,41 @@
+BENDEREIGN — BAKERY / PASTRIES
+
+These images are cropped from the supplied Bendereign menu artwork.
+IMPORTANT: I have not invented product names, descriptions, or prices where the supplied source does not clearly support them.
+Use the approved Bendereign product list to replace the placeholders below.
+
+Product 01
+Photo: bakery-pastry-01.jpg
+Description: [ADD APPROVED PRODUCT DESCRIPTION]
+Price: AED —
+CTA: Order Now
+
+Product 02
+Photo: bakery-pastry-02.jpg
+Description: [ADD APPROVED PRODUCT DESCRIPTION]
+Price: AED —
+CTA: Order Now
+
+Product 03
+Photo: bakery-pastry-03.jpg
+Description: [ADD APPROVED PRODUCT DESCRIPTION]
+Price: AED —
+CTA: Order Now
+
+Product 04
+Photo: bakery-pastry-04.jpg
+Description: [ADD APPROVED PRODUCT DESCRIPTION]
+Price: AED —
+CTA: Order Now
+
+Product 05
+Photo: bakery-pastry-05.jpg
+Description: [ADD APPROVED PRODUCT DESCRIPTION]
+Price: AED —
+CTA: Order Now
+
+Product 06
+Photo: bakery-pastry-06.jpg
+Description: [ADD APPROVED PRODUCT DESCRIPTION]
+Price: AED —
+CTA: Order Now
