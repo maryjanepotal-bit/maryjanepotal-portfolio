@@ -1,1 +1,0 @@
-Use the PDF filenames listed in README.txt
