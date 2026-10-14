@@ -1031,13 +1031,17 @@ button {  cursor: pointer;}
 
 .concentrix-element, [data-brand="concentrix"], 
 .concentrix-hover {transition: all 0.3s ease-in-out;}
+
 /* Hover state - adjust properties (color, scale, shadow) as needed */
+
 .concentrix-element:hover, 
 [data-brand="concentrix"]:hover, 
 .concentrix-hover:hover 
 {transform: translateY(-3px); 
+
   /* Subtle lift */
   opacity: 0.85;
+
   /* Add your custom brand hover color or shadow here, e.g.: */
   /* color: var(--gold-accent); */}
 
@@ -1337,7 +1341,7 @@ main
 { flex: 1 0 auto;}
 
 
-/*********************************/
+/**************************************/
 
 
 .site-footer 
@@ -1352,7 +1356,7 @@ main
   width: min(1240px, calc(100% - 40px));  
   height: var(--header-height);  margin: 0 auto;  
   display: flex;  align-items: center;  
-  justify-content: space-between;  gap: 24px;}
+  justify-content: space-between;  gap: 54px;}
 
 .footer-brand 
 {  display: inline-flex;  align-items: center;  
