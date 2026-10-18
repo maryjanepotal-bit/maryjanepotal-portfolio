@@ -1,3 +1,4 @@
+
 :root {
   --ivory: #f8f6f1;
   --warm-white: #f8f6f1;
@@ -357,14 +358,20 @@ button {  cursor: pointer;}
   text-align: left;  
   overflow-wrap: anywhere;}
 
-.about-section .section-heading::after 
+.about-section 
+.section-heading::after 
 {  margin-left: 0;  margin-right: 0;}
 
-.about-section .section-copy>p 
-{  max-width: 100%;  margin: 5px 5px 5px; ;  
-  color: var(--graphite);  
+.about-section 
+.section-copy>p 
+{  
+  max-width: 100%;  
+  margin: 5px 5px 5px; ;  
+  color: var(--graphite);
+  text-align: justify;
   font-size: clamp(15px, 1.05vw, 19px);  
-  line-height: 1.75;  overflow-wrap: anywhere;}
+  line-height: 1.75;  
+  overflow-wrap: anywhere;}
 
 
 .about-section .section-copy 
@@ -468,24 +475,31 @@ button {  cursor: pointer;}
 {position: absolute;
   top: -6px;right: 0;
   color: var(--pale-gold); 
-  font-size: 2.6rem; font-weight: 800; opacity: 0.2;}
+  font-size: 2.6rem; 
+  font-weight: 800; 
+  opacity: 0.2;}
 
 .profession-content h3 
 {padding-right: 60px;
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.9rem;line-height: 1.05;}
+  font-size: 1.9rem;
+  line-height: 1.05;}
 
 .profession-content h4 
-{margin-top: 6px; color: var(--champagne-gold);
-  font-size: 0.92rem;font-weight: 700;}
+{margin-top: 6px; 
+  color: var(--champagne-gold);
+  font-size: 0.92rem;
+  font-weight: 700;}
 
 .profession-content p 
 {max-width: 830px;
   margin: 14px 0 0;
+  text-align: justify;
   color: var(--graphite);
+  font-style:justify;
   line-height: 1.75;}
 
-      /* CORE SKILLS */
+/******------ CORE SKILLS---- **********/
 
 .coreskills-section 
 {position: relative;
@@ -747,6 +761,13 @@ button {  cursor: pointer;}
   grid-template-columns: 0.95fr 1.88fr;
   gap: 120px;
   align-items: start;}
+
+.contact.section-copy>p
+{max-width: 100px!important; 
+  margin: 14px 0 0!important; 
+  text-align: justify!important; 
+  color: var(--graphite)!important; 
+  line-height: 1.75!important; }
 
 .contact-list 
 {  margin-top: 52px;display: grid;gap: 16px;}
@@ -1340,9 +1361,7 @@ main,
 main 
 { flex: 1 0 auto;}
 
-
 /**************************************/
-
 
 .site-footer 
 { position: fixed;  
@@ -1441,7 +1460,8 @@ main
     border-radius: 50%;
     overflow: hidden;}
 
-.footer-brand-mark img { 
+.footer-brand-mark img 
+{ 
   width: 100%;  height: 100%; 
   object-fit: contain; display: block;}
 
@@ -1507,7 +1527,9 @@ main
     padding: 14px 20px !important;
     gap: 12px !important;
   }
-
+/*@media (max-width: 600px) {
+  .profession-content p {
+    text-align: left;}}*/
   
 @media (max-width: 600px) {
   
