@@ -755,7 +755,7 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
   );
 
   window.location.href =
-    "mailto:info@mjp-empire.com?subject=" + subject + "&body=" + body;
+    "mailto:maryjanepotal@gmail.com?subject=" + subject + "&body=" + body;
 });
 
 /**window.location.href = "mailto:info@mjp-empire.com";**/
