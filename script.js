@@ -759,3 +759,21 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
 });
 
 /**window.location.href = "mailto:info@mjp-empire.com";**/
+
+
+ const portfolioGrid = document.querySelector(".portfolio-grid");
+const portfolioViewButtons = document.querySelectorAll(".portfolio-view-button");
+
+portfolioViewButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const showList = button.dataset.view === "list";
+
+    portfolioGrid.classList.toggle("is-list", showList);
+
+    portfolioViewButtons.forEach((viewButton) => {
+      const isActive = viewButton === button;
+      viewButton.classList.toggle("active", isActive);
+      viewButton.setAttribute("aria-pressed", String(isActive));
+  });
+});
+    });
