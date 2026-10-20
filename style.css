@@ -1622,3 +1622,89 @@ main
     .footer-contact {padding: 0!important;}
     .footer-bottom { flex-direction: column; 
       align-items: flex-start; gap: 8px !important;}}
+
+.portfolio-view-toggle {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin: 0 0 18px;
+}
+
+.portfolio-view-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border: 1px solid var(--gold, #bd9846);
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.portfolio-view-button.active {
+  background: var(--gold, #bd9846);
+  color: #fff;
+}
+
+.portfolio-grid.is-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.portfolio-grid.is-list .portfolio-card {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  align-items: center;
+  min-height: 100px;
+}
+
+.portfolio-grid.is-list .portfolio-card > img {
+  width: 130px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.portfolio-grid.is-list .portfolio-card-content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 4px 16px;
+  padding: 12px 18px;
+}
+
+.portfolio-grid.is-list .portfolio-card-content span,
+.portfolio-grid.is-list .portfolio-card-content h5 {
+  margin: 0;
+}
+
+.portfolio-grid.is-list .portfolio-card-content .album-open {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+@media (max-width: 600px) {
+  .portfolio-grid.is-list .portfolio-card {
+    grid-template-columns: 88px 1fr;
+  }
+
+  .portfolio-grid.is-list .portfolio-card > img {
+    width: 88px;
+    height: 88px;
+  }
+
+  .portfolio-grid.is-list .portfolio-card-content {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: 10px;
+  }
+
+  .portfolio-grid.is-list .portfolio-card-content .album-open {
+    grid-column: 1;
+    grid-row: auto;
+    justify-self: start;
+  }
+}
+
